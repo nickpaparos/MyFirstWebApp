@@ -13,13 +13,8 @@
        @include('includes.navbar')
     </header>
 
-<div>
-    @include('includes.googlemapsapi')
-</div>
-
-
 <div id="main" class="row">
-         @yield('content')
+    @include('includes.googlemapsapi')
 </div>
 
 
